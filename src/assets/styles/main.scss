@@ -1,0 +1,6 @@
+$grid-columns:                16 !default;
+$grid-gutter-width:           0px !default;
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+@import 'custom.scss';
+

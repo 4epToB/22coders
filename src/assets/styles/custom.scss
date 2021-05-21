@@ -1,0 +1,27 @@
+.section{
+    padding: 0 6.4rem;
+}
+body{
+    background-color: #141c18;
+}
+.white{
+    background-color: #ffffff;
+}
+.container-fluid{
+    padding: 16rem 0 12.8rem;
+    border-left-width: 0.1rem;
+    border-left-style: solid;
+    border-right-width: 0.1rem;
+    border-right-style: solid;
+    background-position: center top, left 25% top, right 25% top;
+    background-repeat: repeat-y;
+    background-size: 0.1rem;
+    border-left-color: #232725;
+    border-right-color: #232725;
+    background-image: url(../../assets/images/pixel-border-black.webp), url(../../assets/images/pixel-border-black.webp), url(../../assets/images/pixel-border-black.webp);
+}
+.white .container-fluid{
+    background-image: url(../../assets/images/pixel-border-white.webp), url(../../assets/images/pixel-border-white.webp), url(../../assets/images/pixel-border-white.webp);
+    border-left-color: rgba(31, 40, 35, 0.075);
+    border-right-color: rgba(31, 40, 35, 0.075);
+}
